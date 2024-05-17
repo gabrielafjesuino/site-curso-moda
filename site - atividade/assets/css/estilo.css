@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none; 
+ }
+
+:root {
+    --preto: black;
+    --rosa: #ff98cc;
+    --fundoh1: #8b134f;
+    --branco: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo {
+    width: 270px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    margin: 0 auto;
+ }
+
+div nav {
+    padding-top: 17px;
+    padding-bottom: 22px;
+    text-align: center;
+    background-color: var(--rosa);
+}
+
+.botao {
+    background-color: var(--branco); 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: var(--fundoh1);
+    color: var(--branco);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    margin-top: -6px;
+}
+
+.localizacao {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    justify-content: center;
+    align-items: end;
+    display: flex;
+    color: var(--branco);
+    background-image: url(../img/localizacao.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.localizacao h2 {
+    margin-bottom: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.263);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: larger;
+}
+
+.banner {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    align-items: end;
+    display: flex;
+    color: var(--branco);
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner h2 {
+    margin-bottom: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--preto);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: larger;
+}
+
+.tabela {
+    width: 800px;
+    height: 370px;
+    text-align: center;
+    justify-content: center;
+    align-items: end;
+    display: flex;
+    color: var(--branco);
+    background-image: url(../img/tabela.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: 0 auto;
+}
+
+.tabela h2 {
+    margin-bottom: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--preto);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: larger;
+}
+
+.caixadetexto {
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    background-position: center center;
+    display: flex;
+    padding-right: 0px;
+}
+
+.divtexto {
+    background-color: var(--rosa);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    width: 400px;
+    height: 135px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-align: justify;
+}
+
+.caixadetexto img {
+    width: 330px;
+    padding-left: 30px;
+}
+
+.contato {
+    background-color: #efefee;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contato h2 {
+    font-size: larger;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer img {
+    width: 270px;
+    padding-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    color: var(--preto);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+@media (max-width: 1024px) {
+    .banner {
+        width: 99%;
+    }
+}
+
+@media (max-width: 768px) {
+    .tabela {
+        width: 95%;
+    }
+
+    .caixadetexto img {
+        width: 231px;
+        padding-left: 30px;
+    }
+
+    .banner {
+        width: 100%;
+        height: 400px;
+    }
+}
+
+@media (max-width: 425px) {
+    .caixadetexto img {
+        width: 93%;
+    }
+
+    .localizacao {
+        width: 70%;
+    }
+}
